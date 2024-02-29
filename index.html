@@ -1,1 +1,59 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Data of the US</title>
+    <style>
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody id="population-data">
+            <tr>
+                <th colspan="2">US Population</th>
+            </tr>
+            <tr>
+                <th>Year</th>
+                <th>Population</th>
+            </tr> 
+        </tbody>
+    </table>
+    <script>
+        console.log("Testing script, it works!");
+
+        const apiEndpoint = '/population-data';  // Updated endpoint
+
+        fetch(apiEndpoint)
+            .then(response => response.json())
+            .then(data => {
+                const populationData = document.getElementById('population-data');
+
+                data.reverse();
+
+                data.forEach(item => {
+
+                    const formatPopulation = item.population.toLocaleString();
+
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td>${item.year}</td><td>${formatPopulation}</td>`;
+                    populationData.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error fetching population data:', error));
+    </script>
+</body>
+</html>
 
