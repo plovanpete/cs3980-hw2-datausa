@@ -28,9 +28,9 @@ Allows for data validation of USPopulationData which has data of Year and Popula
 ![hw2model](https://github.com/plovanpete/cs3980-hw2-datausa/assets/145849883/f4bf2ada-5b5b-4568-8d77-bd806eb3e345)
 
 
-
 ## popluation_chart.py
 This python file creates a router in which we can grab the JSON Data from the URL and puts it in readable format.
 
 ### population_chart.py Code:
-![hw2populationdata](https://github.com/plovanpete/cs3980-hw2-datausa/assets/145849883/771f5d8d-6aa0-44c5-8fbe-3eb0dd1551f7)
+![hw2populationdatav2](https://github.com/plovanpete/cs3980-hw2-datausa/assets/145849883/c5afa0e7-9916-4bcb-be1f-13896e1b31e5)
+
