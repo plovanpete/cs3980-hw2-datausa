@@ -3,6 +3,11 @@
 ## Website Picture:
 ![hw2website](https://github.com/plovanpete/cs3980-hw2-datausa/assets/145849883/51022c47-54ea-4b93-8805-95abb910dd31)
 
+## What is needed to run:
+We will need to install these packages: FastAPI, Pydantic, and Uvicorn
+'''
+pip install fastapi pydantic uvicorn
+'''
 
 ## index.html
 This HTML file contains both the CSS and Javascript. This is used for putting the template on the site.
