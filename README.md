@@ -17,10 +17,10 @@ uvicorn main:app --reload
 ## index.html
 This HTML file contains both the CSS and Javascript. This is used for putting the template on the site.
 
-### HTML File P1 (Has CSS Stylesheet):
+### HTML File Part 1 (Has CSS Stylesheet):
 ![hw2indexcommentpt1v2](https://github.com/plovanpete/cs3980-hw2-datausa/assets/145849883/dba9c19b-b953-4cda-9df8-64ab4f7e2d78)
 
-### HTML File P2 (Has JavaScript):
+### HTML File Part 2 (Has JavaScript):
 ![hw2indexcommentpt2v2](https://github.com/plovanpete/cs3980-hw2-datausa/assets/145849883/9149ae1c-f40e-493a-8ea1-a3061cd81590)
 
 ## main.py
