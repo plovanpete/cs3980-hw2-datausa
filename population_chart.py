@@ -17,7 +17,7 @@ def get_population_data(request: Request):
         data = response.json()["data"]
     except requests.exceptions.RequestException as e:
 
-        # Error is it can't fetch data.
+        # Error if it can't fetch data.
         raise HTTPException(status_code=500, detail=f"Failed to get US Population Data: {str(e)}")
 
     # Converts the data to Pydantic model and loops through it to get the items.
