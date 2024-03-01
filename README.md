@@ -9,7 +9,7 @@ We will need to install these packages: FastAPI, Pydantic, and Uvicorn
 pip install fastapi pydantic uvicorn
 ```
 
-Then use this command to run the servers:
+Then use this command to run the server:
 ```
 uvicorn main:app --reload
 ```
