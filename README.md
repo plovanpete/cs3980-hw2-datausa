@@ -9,6 +9,11 @@ We will need to install these packages: FastAPI, Pydantic, and Uvicorn
 pip install fastapi pydantic uvicorn
 ```
 
+Then use this command to run the servers:
+```
+uvicorn main:app --reload
+```
+
 ## index.html
 This HTML file contains both the CSS and Javascript. This is used for putting the template on the site.
 
